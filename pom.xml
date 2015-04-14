@@ -24,6 +24,52 @@
 
   <profiles>
     <profile>
+      <id>cdh5.4</id>
+      <properties>
+        <profile>cdh5.4</profile>
+      </properties>
+
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.hadoop</groupId>
+          <artifactId>hadoop-common</artifactId>
+          <version>2.6.0-cdh5.4.0</version>
+          <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.hbase</groupId>
+          <artifactId>hbase-client</artifactId>
+          <version>1.0.0-cdh5.4.0</version>
+          <scope>compile</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+
+    <profile>
+      <id>cdh5.3</id>
+      <properties>
+        <profile>cdh5.3</profile>
+      </properties>
+
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.hadoop</groupId>
+          <artifactId>hadoop-common</artifactId>
+          <version>2.5.0-cdh5.3.3</version>
+          <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.hbase</groupId>
+          <artifactId>hbase-client</artifactId>
+          <version>0.98.6-cdh5.3.3</version>
+          <scope>compile</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+
+    <profile>
       <id>cdh5.2</id>
       <properties>
         <profile>cdh5.2</profile>
