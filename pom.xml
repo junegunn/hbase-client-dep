@@ -24,6 +24,22 @@
 
   <profiles>
     <profile>
+      <id>asynchbase</id>
+      <properties>
+        <profile>asynchbase</profile>
+      </properties>
+
+      <dependencies>
+        <dependency>
+          <groupId>org.hbase</groupId>
+          <artifactId>asynchbase</artifactId>
+          <version>1.6.0</version>
+          <scope>compile</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+
+    <profile>
       <id>cdh5.4</id>
       <properties>
         <profile>cdh5.4</profile>

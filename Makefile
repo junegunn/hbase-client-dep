@@ -7,6 +7,7 @@ all:
 	mvn package -Pcdh5.2
 	mvn package -Pcdh5.3
 	mvn package -Pcdh5.4
+	mvn package -Pasynchbase
 
 clean:
 	rm -rf package
