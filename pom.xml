@@ -40,6 +40,22 @@
     </profile>
 
     <profile>
+      <id>1.0</id>
+      <properties>
+        <profile>1.0</profile>
+      </properties>
+
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.hbase</groupId>
+          <artifactId>hbase-client</artifactId>
+          <version>1.0.0</version>
+          <scope>compile</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+
+    <profile>
       <id>cdh5.4</id>
       <properties>
         <profile>cdh5.4</profile>

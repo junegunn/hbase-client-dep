@@ -6,7 +6,11 @@ Create uberjar for HBase client.
 Build
 -----
 
+    # Build all profiles
     make
+
+    # Build 1.0 profile
+    mvn package -P1.0
 
 Download
 --------
