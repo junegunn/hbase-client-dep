@@ -9,8 +9,8 @@ Build
     # Build all profiles
     make
 
-    # Build 1.0 profile
-    mvn package -P1.0
+    # Build 1.2 profile
+    mvn package -P1.2
 
 Download
 --------

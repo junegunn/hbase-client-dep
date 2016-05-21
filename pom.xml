@@ -40,6 +40,22 @@
     </profile>
 
     <profile>
+      <id>1.2</id>
+      <properties>
+        <profile>1.2</profile>
+      </properties>
+
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.hbase</groupId>
+          <artifactId>hbase-client</artifactId>
+          <version>1.2.1</version>
+          <scope>compile</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+
+    <profile>
       <id>1.0</id>
       <properties>
         <profile>1.0</profile>
